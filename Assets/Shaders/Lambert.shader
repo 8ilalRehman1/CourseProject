@@ -2,7 +2,6 @@ Shader "Lambert"
 {
     Properties
     {
-        //lambert
         _Color ("Color", Color) = (1.0,1.0,1.0)
     }
     SubShader
