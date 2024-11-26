@@ -1,4 +1,4 @@
-Shader "Custom/Glass"
+Shader "Glass"
 {
     Properties
     {
@@ -14,7 +14,7 @@ Shader "Custom/Glass"
         Pass 
         {
             CGPROGRAM
-            #pragma vertex vertex
+            #pragma vertex vert
             #pragma fragment frag
 
             #include "UnityCG.cginc"
